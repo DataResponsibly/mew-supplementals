@@ -4,7 +4,7 @@ Supplemental materials for the paper of Most-Expected-Winner.
 
 ## 1. Appendix to the MEW paper
 
-The [supp.pdf](https://anonymous.4open.science/r/mew-supplementals-45F7/supp.pdf) is the appendix that contains the additional proofs, as well as the solver for RSM voting profiles.
+The [supp.pdf](https://github.com/DataResponsibly/mew-supplementals/blob/main/supp.pdf) is the appendix that contains the additional proofs, as well as the solver for RSM voting profiles.
 
 ## 2. Experiment code
 
