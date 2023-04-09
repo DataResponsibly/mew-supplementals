@@ -1,10 +1,10 @@
 # mew-supplementals
 
-Supplemental materials for the paper of Most-Expected-Winner.
+Supplemental materials for the paper of [Most-Expected-Winner](https://doi.org/10.1145/3588702).
 
-## 1. Appendix to the MEW paper
+## 1. Technical report
 
-The [supp.pdf](https://github.com/DataResponsibly/mew-supplementals/blob/main/supp.pdf) is the appendix that contains the additional proofs, as well as the solver for RSM voting profiles.
+Please refer to our [technical report](https://arxiv.org/abs/2105.00082) for the additional proofs, experiments, and the solver for RSM voting profiles.
 
 ## 2. Experiment code
 
