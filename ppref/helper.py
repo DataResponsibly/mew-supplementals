@@ -13,26 +13,6 @@ from numpy import ndarray, argsort
 from scipy.stats import kendalltau
 
 
-def send_email(subject=None, body=None):
-    subject = subject or 'Running experiment'
-
-    current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
-    body = body or f'Experiment result at {current_time}'
-
-    s_from = 'pymail4exp@gmail.com'
-    s_to = 'timoping@gmail.com'
-
-    email_text = f'From: {s_from}\nTo: {s_to}\nSubject: {subject}\n\n{body}'
-
-    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
-        server.ehlo()
-        server.login(s_from, 'pYmail--4--exp')
-        server.sendmail(s_from, s_to, email_text)
-        server.close()
-
-        print('Email sent!')
-
-
 def normalize_weights(weights: Sequence[float]) -> Union[List[float], ndarray]:
     """These weights should add up to 1, so that they are a distribution."""
     weight_sum = sum(weights)
